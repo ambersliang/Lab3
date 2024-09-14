@@ -64,6 +64,9 @@ h2 {
 
 .disclaimer {
     background-color: green; 
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
     display: flex;
     flex-direction:column;
 }
