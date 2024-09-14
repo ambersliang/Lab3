@@ -7,7 +7,8 @@ body {
     font-family: 'Lucida Handwriting';
     text-align: center;
     background-color: green;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -17,7 +18,10 @@ ul {
     list-style: none;
     justify-content: space-around;
     background-color: rgb(7, 156, 7);
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .logo img {
@@ -37,22 +41,26 @@ ul {
 }
 
 h2 {
+    text-transform: uppercase;
+    font-family: 'Lucida Handwriting';
     text-align: center;
 }
 
 .content {
-    background-color: aqua;
+    background-color: rgb(7, 156, 7);
     flex: 7;
     margin: 10px 10px 10px 10px;
 }
 
 .images {
-    background-color: blue;
+    background-color: rgb(7, 156, 7);
     flex: 3;
     margin: 10px 10px 10px 10px;
     text-align: center;
 }
 
 .disclaimer {
-    background-color: green;
+    background-color: green; 
+    display: flex;
+    flex-direction:column;
 }
